@@ -14,6 +14,7 @@
     "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore"
   },
   "dependencies": {
+    "@eslint/compat": "^1.2.4",
     "husky": "^9.1.7",
     "lint-staged": "^15.3.0",
     "next": "15.1.3",
